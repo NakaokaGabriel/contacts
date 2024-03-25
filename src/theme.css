@@ -1,0 +1,20 @@
+:root {
+  --background: #ECF5FF;
+  --color-gray-100: #F4F8FB;
+  --color-gray-200: #EAECF0;
+  --color-gray-300: #D0D5DD;
+  --color-gray-500: #667085;
+  --color-gray-900: #101828;
+  --color-blue-500: #3F9BFC;
+  --color-base-white: #FFF;
+  --color-success: #12B76A;
+  --color-idle: #FAC301;
+
+  --spacing-xss: 2px;
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+
+  --radius-md: 16px;
+}
