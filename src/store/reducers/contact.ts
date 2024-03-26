@@ -14,8 +14,8 @@ export const contactsApi = createApi({
       query: (group) => `?group=${group}`,
       providesTags: ['Contacts']
     }),
-    getContactById: builder.query<Contact[], string>({
-      query: (id) => `?id=${id}`,
+    getContactById: builder.query<Contact, string>({
+      query: (id) => `/${id}`,
       providesTags: ['Contacts']
     }),
     createContact: builder.mutation<Contact[], Contact>({

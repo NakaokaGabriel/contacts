@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -37,4 +38,12 @@ export const Initials = styled.span`
   font-weight: bold;
 `;
 
-export const Actions = styled.div``;
+export const Actions = styled.div`
+  display: flex;
+  gap: var(--spacing-sm);
+`;
+
+export const ButtonAction = styled(Button)`
+  padding: 2px var(--spacing-lg);
+  font-size: 10px;
+`
