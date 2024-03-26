@@ -94,7 +94,7 @@ export function EditContactModal({ isOpen, setIsOpen, id }: CreateContactModalPr
 
   return (
     <Modal
-      title="Novo Contato"
+      title="Editar Contato"
       setIsOpen={setIsOpen}
       isOpen={isOpen}
       children={
