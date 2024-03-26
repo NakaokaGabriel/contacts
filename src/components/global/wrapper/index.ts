@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  padding: var(--spacing-lg) var(--spacing-md);
-  height: 100%;
-  width: 100%;
+  margin: 0 var(--spacing-lg);
+  padding: var(--spacing-lg) 0;
 `;
